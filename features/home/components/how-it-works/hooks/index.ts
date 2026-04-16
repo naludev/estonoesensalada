@@ -1,0 +1,1 @@
+export * from "./use-wow-it-works.hook";
