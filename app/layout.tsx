@@ -11,11 +11,11 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'https://estonoesensalada.com'),
   title: {
-    default: 'Esto No Es Ensalada | Platos 100% Plantas',
+    default: 'Esto No Es Ensalada | Viandas Plant-Based en Montevideo',
     template: '%s | Esto No Es Ensalada'
   },
-  description: 'Acá no hay ensalada. Solo platos con personalidad, sabor intenso y 100% plantas. Viandas veganas y naturales en Buenos Aires.',
-  keywords: ['comida vegana', 'plant based', 'viandas veganas', 'comida saludable', 'delivery vegano', 'buenos aires', 'seitán', 'chorizo vegano'],
+  description: 'Comida vegana con personalidad en Montevideo. Viandas plant-based frescas, sabor intenso y 100% plantas. Delivery en Ciudad Vieja, Centro y más.',
+  keywords: ['comida vegana montevideo', 'plant based uruguay', 'viandas veganas montevideo', 'comida saludable uruguay', 'delivery vegano montevideo', 'ciudad vieja', 'seitán', 'pizzas veganas montevideo'],
   authors: [{ name: 'Esto No Es Ensalada' }],
   creator: 'Esto No Es Ensalada',
   publisher: 'Esto No Es Ensalada',
@@ -24,24 +24,24 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'es_AR',
+    locale: 'es_UY',
     url: '/',
-    title: 'Esto No Es Ensalada | Platos 100% Plantas',
-    description: 'Acá no hay ensalada. Solo platos con personalidad, sabor intenso y 100% plantas.',
+    title: 'Esto No Es Ensalada | Viandas Plant-Based en Montevideo',
+    description: 'Olvidate de las ensaladas tristes. Platos con personalidad, sabor intenso y 100% plantas en Montevideo.',
     siteName: 'Esto No Es Ensalada',
     images: [
       {
         url: '/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Esto No Es Ensalada - Platos 100% Plantas',
+        alt: 'Esto No Es Ensalada - Viandas Plant-Based en Montevideo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Esto No Es Ensalada | Platos 100% Plantas',
-    description: 'Acá no hay ensalada. Solo platos con personalidad, sabor intenso y 100% plantas.',
+    title: 'Esto No Es Ensalada | Viandas Plant-Based en Montevideo',
+    description: 'Comida vegana con personalidad en Montevideo. Sabor intenso y 100% plantas.',
     images: ['/logo.png'],
   },
   robots: {

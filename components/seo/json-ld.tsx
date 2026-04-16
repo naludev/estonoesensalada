@@ -31,13 +31,13 @@ export function JsonLd() {
       "streetAddress": "Treinta y Tres",
       "addressLocality": "Ciudad Vieja",
       "addressRegion": "Montevideo",
-      "postalCode": "1000",
-      "addressCountry": "URU"
+      "postalCode": "11000",
+      "addressCountry": "UY"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -34.6037,
-      "longitude": -58.3816
+      "latitude": -34.9065,
+      "longitude": -56.2023
     },
     "servesCuisine": ["Vegan", "Plant-based"],
     "priceRange": "$$",
