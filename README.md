@@ -2,7 +2,7 @@
 
 **Esto No Es Ensalada** es una plataforma de e-commerce gastronómico diseñada para un emprendimiento de comida plant-based con personalidad. El proyecto se enfoca en una experiencia de usuario fluida, un diseño vibrante y un sistema de pedidos directo vía WhatsApp.
 
-![Banner](https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=1200&h=400)
+![Banner](public/website.png)
 
 ## 🚀 Características Principales
 
