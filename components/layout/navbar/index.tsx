@@ -37,9 +37,9 @@ export function Navbar() {
             ))}
           </div>
 
-          <div className="hidden md:flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <CartDrawer>
-              <Button variant="ghost" size="icon" aria-label="Ver carrito" className="relative border-2 border-foreground hover:bg-[#f633cc] hover:text-white">
+              <Button variant="ghost" size="icon" aria-label="Ver carrito" className="relative border-2 border-foreground hover:bg-[#f633cc] hover:text-white h-10 w-10">
                 <ShoppingBag className="h-5 w-5" />
                 {totalItems > 0 && (
                   <span className="absolute -top-2 -right-2 bg-[#53f921] text-foreground text-[10px] font-black w-5 h-5 flex items-center justify-center rounded-full border-2 border-foreground animate-in zoom-in duration-200">
@@ -48,15 +48,15 @@ export function Navbar() {
                 )}
               </Button>
             </CartDrawer>
-          </div>
 
-          <button
-            className="md:hidden p-2 border-2 border-foreground"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+            <button
+              className="md:hidden p-2 border-2 border-foreground h-10 w-10 flex items-center justify-center"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {isOpen && (
@@ -72,8 +72,8 @@ export function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <Button className="w-full mt-2 bg-[#53f921] hover:bg-[#4ae01d] text-foreground font-bold uppercase border-2 border-foreground">
-                Pedir Ahora
+              <Button asChild className="w-full mt-2 bg-[#53f921] hover:bg-[#4ae01d] text-foreground font-bold uppercase border-2 border-foreground">
+                <Link href="/menu">Pedir Ahora</Link>
               </Button>
             </div>
           </div>

@@ -31,7 +31,7 @@ export const VALUES: readonly ValueItemProps[] = [
   {
     icon: Sparkles,
     title: "Eco-Friendly",
-    description: "Packaging biodegradable y delivery en bici cuando podemos.",
+    description: "Delivery en bici cuando podemos.",
     color: "pink",
   },
 ] as const;
