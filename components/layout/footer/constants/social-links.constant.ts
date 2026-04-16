@@ -10,24 +10,10 @@ import { SocialLinkProps } from '../types';
 export const socialLinks: SocialLinkProps[] = [
   {
     icon: Instagram,
-    href: "#",
+    href: "https://www.instagram.com/noesensalada.uy/",
     label: "Instagram",
     bgColor: "bg-[#53f921]",
     hoverColor: "hover:bg-[#f633cc]"
   },
-  {
-    icon: Facebook,
-    href: "#",
-    label: "Facebook",
-    bgColor: "bg-[#f633cc]",
-    hoverColor: "hover:bg-[#53f921]"
-  },
-  {
-    icon: Twitter,
-    href: "#",
-    label: "Twitter",
-    bgColor: "bg-[#53f921]",
-    hoverColor: "hover:bg-[#f633cc]"
-  }
 ];
 

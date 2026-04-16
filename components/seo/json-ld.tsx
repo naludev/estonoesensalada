@@ -25,14 +25,14 @@ export function JsonLd() {
     "image": "https://estonoesensalada.com/logo.png",
     "@id": "https://estonoesensalada.com",
     "url": "https://estonoesensalada.com",
-    "telephone": "+54094646481",
+    "telephone": "+598094646481",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Buenos Aires",
-      "addressLocality": "Buenos Aires",
-      "addressRegion": "CABA",
+      "streetAddress": "Treinta y Tres",
+      "addressLocality": "Ciudad Vieja",
+      "addressRegion": "Montevideo",
       "postalCode": "1000",
-      "addressCountry": "AR"
+      "addressCountry": "URU"
     },
     "geo": {
       "@type": "GeoCoordinates",

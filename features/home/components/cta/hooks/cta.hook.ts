@@ -23,6 +23,9 @@ export function useCTALogic({ discountCode, onSuccess }: UseCTALogicProps) {
             // - Enviar analytics
 
             await navigator.clipboard.writeText(discountCode);
+            
+            // Redirect to menu after small delay to let user see feedback or just direct
+            window.location.href = '/menu';
 
             if (onSuccess) {
                 onSuccess();
